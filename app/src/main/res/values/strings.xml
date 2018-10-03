@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">LifeGame</string>
+
+  <string name="beehive">Beehive</string>
+  <string name="block">Block</string>
+  <string name="flower">Flower</string>
+  <string name="glider">Glider</string>
+</resources>

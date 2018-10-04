@@ -14,12 +14,7 @@ class Board(
       for (column in 0 until size) {
         val neighboursCount = countNeighbours(row, column)
 
-        when {
-          neighboursCount < 2 -> newBoard[row][column] = false
-          neighboursCount == 2 -> newBoard[row][column] = board[row][column]
-          neighboursCount == 3 -> newBoard[row][column] = true
-          neighboursCount > 3 -> newBoard[row][column] = false
-        }
+        TODO("Implement game rules")
       }
     }
 

@@ -7,7 +7,9 @@ import android.graphics.Paint
 import android.util.AttributeSet
 import android.view.View
 
-class BoardView(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
+class BoardView : View {
+
+  // TODO Implement constructor with attributes
 
   private val paint = Paint()
 
@@ -17,12 +19,10 @@ class BoardView(context: Context?, attrs: AttributeSet?) : View(context, attrs) 
       invalidate()
     }
 
-  init {
-    if (isInEditMode) {
-      board = boardFromString(20, "X.XXXX.X\n....X.X.X....")
-    }
-  }
 
+  init {
+    // TODO Make preview stub for this custom view.
+  }
 
   private fun drawBoard(board: Board, canvas: Canvas) {
     paint.color = Color.BLUE

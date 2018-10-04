@@ -28,9 +28,9 @@ class FiguresAdapter(private val clickListener: OnItemClickListener)
   @Language("TEXT")
   private val figures = listOf(
       Figure(R.drawable.beehive, R.string.beehive, "......\n..XX..\n.X..X.\n..XX.."),
-      Figure(R.drawable.block, R.string.block, "....\n.XX.\n.XX.\n...."),
+      Figure(R.drawable.blinker, R.string.blinker, ".....\n.XXX.\n....."),
       Figure(R.drawable.glider, R.string.glider, ".X.\n..X\nXXX"),
-      Figure(R.drawable.flower, R.string.flower, ".....\n..X..\n.X.X.\n..X..\n.....")
+      Figure(R.drawable.boat, R.string.boat, ".....\n..X..\n.XXX.\n.....")
   )
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FigureViewHolder {

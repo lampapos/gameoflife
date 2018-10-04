@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
     boardView.board = boardFromString(20, "XXXX...XXXX.X.X.X.X\nX.X.X.X.X")
 
-    boardView.setOnClickListener { boardView.board = boardView.board.makeStep() }
+     boardView.setOnClickListener { boardView.board = boardView.board.makeStep() }
 
     val figuresAdapter = FiguresAdapter(clickListener = object : FiguresAdapter.OnItemClickListener {
 

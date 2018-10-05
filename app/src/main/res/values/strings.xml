@@ -1,12 +1,5 @@
 <resources>
   <string name="app_name">LifeGame</string>
 
-<<<<<<< HEAD
-  <string name="beehive">Beehive</string>
-  <string name="blinker">Blinker</string>
-  <string name="glider">Glider</string>
-  <string name="tetris">Tetris</string>
-=======
   <!-- TODO Add figure names. -->
->>>>>>> Remove parts of code and add TODOs
 </resources>

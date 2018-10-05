@@ -64,7 +64,6 @@ fun boardFromString(size: Int, boardString: String): Board {
     }
 
     if (currentChar == '\n') {
-      row++
       col = 0
     } else {
       col++

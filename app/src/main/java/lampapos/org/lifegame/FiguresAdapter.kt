@@ -24,22 +24,12 @@ class FiguresAdapter(private val clickListener: OnItemClickListener)
     fun onClick(boardStr: String)
   }
 
-<<<<<<< HEAD
-  @Language("TEXT")
-  private val figures = listOf(
-      Figure(R.drawable.beehive, R.string.beehive, "......\n..XX..\n.X..X.\n..XX.."),
-      Figure(R.drawable.blinker, R.string.blinker, ".....\n.XXX.\n....."),
-      Figure(R.drawable.glider, R.string.glider, ".X.\n..X\nXXX"),
-      Figure(R.drawable.tetris, R.string.tetris, ".....\n..X..\n.XXX.\n.....")
-  )
-=======
   private val figures = emptyList<Figure>()
   // TODO Fulfill empty list.
-  // beehive    ......\n..XX..\n.X..X.\n..XX..
-  // blinker    .....\n.XXX.\n.....
-  // glider     .X.\n..X\nXXX
-  // boat       .....\n..X..\n.XXX.\n.....
->>>>>>> Remove parts of code and add TODOs
+  // beehive ......\n..XX..\n.X..X.\n..XX..
+  // blinker .....\n.XXX.\n.....
+  // glider .X.\n..X\nXXX
+  // tetris .....\n..X..\n.XXX.\n.....
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FigureViewHolder {
     val itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false)

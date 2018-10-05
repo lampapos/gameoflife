@@ -14,7 +14,13 @@ class MainActivity : AppCompatActivity() {
 
      boardView.setOnClickListener { boardView.board = boardView.board.makeStep() }
 
-    val figuresAdapter = FiguresAdapter(TODO("Add on click listener"))
+    val figuresAdapter = FiguresAdapter(object : FiguresAdapter.OnItemClickListener {
+
+      override fun onClick(boardStr: String) {
+        boardView.board = boardFromString(20, boardStr)
+      }
+
+    })
 
     figuresList.adapter = figuresAdapter
   }

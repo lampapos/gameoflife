@@ -3,6 +3,6 @@
 
   <string name="beehive">Beehive</string>
   <string name="blinker">Blinker</string>
-  <string name="boat">Boat</string>
   <string name="glider">Glider</string>
+  <string name="tetris">Tetris</string>
 </resources>

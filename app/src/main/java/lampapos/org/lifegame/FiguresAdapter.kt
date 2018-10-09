@@ -30,7 +30,7 @@ class FiguresAdapter(private val clickListener: OnItemClickListener)
       Figure(R.drawable.beehive, R.string.beehive, "......\n..XX..\n.X..X.\n..XX.."),
       Figure(R.drawable.blinker, R.string.blinker, ".....\n.XXX.\n....."),
       Figure(R.drawable.glider, R.string.glider, ".X.\n..X\nXXX"),
-      Figure(R.drawable.boat, R.string.boat, ".....\n..X..\n.XXX.\n.....")
+      Figure(R.drawable.tetris, R.string.tetris, ".....\n..X..\n.XXX.\n.....")
   )
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FigureViewHolder {

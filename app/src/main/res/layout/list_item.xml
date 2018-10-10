@@ -10,16 +10,12 @@
   <ImageView
       android:id="@+id/icon"
       android:layout_width="80dp"
-      android:layout_height="80dp"
-      tools:src="@sample/figures"
-      tools:ignore="ContentDescription"
-      tools:srcCompat="@sample/figures[0]"/>
+      android:layout_height="80dp"/>
 
   <TextView
       android:id="@+id/label"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_gravity="center"
-      tools:text="@sample/names"/>
+      android:layout_gravity="center"/>
 
 </LinearLayout>

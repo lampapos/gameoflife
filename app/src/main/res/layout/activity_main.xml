@@ -32,8 +32,6 @@
       app:layout_constraintBottom_toBottomOf="parent"
       android:layout_marginBottom="8dp"
       app:layoutManager="android.support.v7.widget.LinearLayoutManager"
-      android:orientation="horizontal"
-      tools:listitem="@layout/list_item"
-      tools:itemCount="4"/>
+      android:orientation="horizontal"/>
 
 </android.support.constraint.ConstraintLayout>

@@ -10,8 +10,8 @@
   <ImageView
       android:id="@+id/icon"
       android:layout_width="80dp"
-      android:layout_height="80dp"
-      tools:src="@tools:sample/avatars"/>
+      android:layout_height="80dp"/>
+      <!--tools:src="@tools:sample/avatars"/>-->
 
   <TextView
       android:id="@+id/label"

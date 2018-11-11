@@ -2,13 +2,13 @@ package lampapos.org.lifegame
 
 class Board(
     val size: Int,
-    private val board: Array<Array<Boolean>> = Array(size) { _ -> Array(size) { _ -> false} }
+    private val board: Array<Array<Boolean>> = Array(size) { Array(size) { false} }
 ) {
 
   fun getCell(row: Int, column: Int) = board[row][column]
 
   fun makeStep(): Board {
-    val newBoard: Array<Array<Boolean>> = Array(size) { _ -> Array(size) { _ -> false} }
+    val newBoard: Array<Array<Boolean>> = Array(size) { Array(size) { false} }
 
     for (row in 0 until size) {
       for (column in 0 until size) {
@@ -59,7 +59,7 @@ fun boardFromString(size: Int, boardString: String): Board {
   val iterator = boardString.iterator()
   var row = 0
   var col = 0
-  val board: Array<Array<Boolean>> = Array(size) { _ -> Array(size) { _ -> false} }
+  val board: Array<Array<Boolean>> = Array(size) { Array(size) { false} }
 
   while (iterator.hasNext()) {
     val currentChar = iterator.next()
